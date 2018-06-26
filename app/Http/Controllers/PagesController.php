@@ -10,7 +10,7 @@ class PagesController extends Controller
   {
     $data = array(
       'title' => 'Home',
-      'page_heading' => 'This is /index served via PagesController'
+      'page_heading' => 'Welcome to MyApp!'
     );
 
     return view( 'pages/index' )->with($data);
